@@ -1,0 +1,54 @@
+/* styles.css */
+.container {
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.initials {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f4f4f4;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.gender {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #218838;
+}
